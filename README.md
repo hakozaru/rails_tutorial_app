@@ -68,6 +68,8 @@
    - bundle exec rake db:migrate (マイグレーションの適用)
    - bundle exec rake db:rollback (マイグレーションの取り消し)
  - Validationについて
+   - emailについてのValidationが奥が深すぎる。
+   - セキュリティとかも現時点では「ふーん」って感じなので、実際にアプリを作った時に読み直すのが良さそう。
 
 
 # その他いろいろ
